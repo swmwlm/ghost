@@ -1,0 +1,26 @@
+{
+    "url": "http://192.168.100.139:2368",
+    "server": {
+        "port": 2368
+    },
+    "database": {
+        "client": "mysql",
+        "connection": {
+            "host"     : "db",
+            "user"     : "ghost",
+            "password" : "ghost",
+            "database" : "ghost",
+            "port"     : "13306"
+        }
+    },
+    "paths": {
+        "contentPath": "content/"
+    },
+    "logging": {
+        "level": "info",
+        "rotation": {
+            "enabled": true
+        },
+        "transports": ["file", "stdout"]
+    }
+}
